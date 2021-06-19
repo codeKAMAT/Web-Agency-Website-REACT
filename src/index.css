@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css2?family=Muli&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #704db8 !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover {
+  color: #704db8 !important;
+}
+.menu_active {
+  font-weight: bold;
+  color: #704db8 !important;
+  border-bottom: 1px solid #704db8;
+}
+
+/* HomeAndAbout */
+#header {
+  width: 100%;
+  height: 100vh;
+  margin-top: -70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 4.5em;
+  font-weight: 700;
+  color: black;
+}
+#header .brand-name {
+  color: #704db8;
+}
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+#header .btn-get-started,
+#serviceCard .btn-get-started,
+#contact .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  color: #704db8;
+  background-color: white;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border: 2px solid #704db8;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#header .btn-get-started:hover,
+#serviceCard .btn-get-started:hover,
+#contact .btn-get-started:hover {
+  color: white;
+  background-color: #704db8;
+}
+.header-img {
+  text-align: right;
+}
+#header .animated,
+#contact .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY((-10px));
+  }
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY((-10px));
+  }
+}
+
+/* Contact */
+.contact_div {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Footer */
+
+footer p {
+  padding: 0;
+  margin: 0;
+}
+
+/* responsive code */
+@media (max-width: 991px) {
+  #header {
+    height: 100vh;
+    text-align: center;
+  }
+  #header .header-img {
+    text-align: center;
+  }
+  #header .header-img img {
+    width: 70%;
+  }
+  #header h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    height: 100vh;
+    margin-top: 20px;
+  }
+  #header h1 {
+    font-size: 28px;
+  }
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+}
