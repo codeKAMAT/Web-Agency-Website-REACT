@@ -24,8 +24,6 @@ Complete Responsive Animated Website using React JS
 
 #### Screens :computer:
 
-![Technology overview](ScreenShot/Shot0.png)
-
 ![Technology overview](ScreenShot/Shot1.png)
 
 ![Technology overview](ScreenShot/Shot2.png)
@@ -33,5 +31,3 @@ Complete Responsive Animated Website using React JS
 ![Technology overview](ScreenShot/Shot3.png)
 
 ![Technology overview](ScreenShot/Shot4.png)
-
-![Technology overview](ScreenShot/Shot5.png)
